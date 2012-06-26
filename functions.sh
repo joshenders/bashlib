@@ -17,7 +17,7 @@ function check_dependencies() {
              exit 1
         else
             # set $utility to full path of $utility
-            eval $utility=$(type -P $utility)
+            eval $utility="$(type -P $utility)"
         fi
     done
 }
