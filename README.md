@@ -11,4 +11,4 @@ document some of my more heroic efforts. This is my attempt to do so.
 >
 > There are many more complications involving: subshells; exported functions; "function collapsing" (functions that define or redefine other functions or themselves); traps (and their inheritance); and the way functions interact with stdio. Don't bite the newbie for not understanding all this. Shell functions are totally f***ed.
 
--- http://mywiki.wooledge.org/BashWeaknesses
+http://mywiki.wooledge.org/BashWeaknesses
