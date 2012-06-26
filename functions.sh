@@ -1,4 +1,6 @@
 function exit_with_error() {
+    # usage: exit_with_error "error message"
+
     echo "${0##*/}: $@" >&2
     exit 1
 }
