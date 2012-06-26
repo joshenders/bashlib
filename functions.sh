@@ -13,7 +13,7 @@ function check_dependencies() {
 
     for utility in $dependencies; do
         if [[ "$(type $utility >/dev/null 2>&1; echo $?)" -ne '0' ]]; then
-             echo ${0##*/}: "Could not find \"$utility\". Please verify that \"$utility\" is installed before running this script" >&2
+             echo "${0##*/}: Could not find \"$utility\" in \$PATH. Please verify that \"$utility\" is installed before running this script" >&2
              exit 1
         else
             # set $utility to full path of $utility
