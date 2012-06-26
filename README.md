@@ -1,0 +1,4 @@
+bashlib
+=======
+
+Bash functions
