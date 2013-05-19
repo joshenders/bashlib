@@ -71,7 +71,7 @@ function exit_with_usage() {
 
     # cat << EOF >&2 works if you can shell out
     echo
-"Usage: "${0##*/}: $@" [options] <arg>
+"Usage: ${0##*/} [options] <arg>
 
 Options:
     -a N, --apple=N    Do a thing
