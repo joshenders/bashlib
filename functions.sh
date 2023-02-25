@@ -1,4 +1,3 @@
-# This file is inteded to be 
 function exit_with_error() {
     # usage: exit_with_error "error message"
 
