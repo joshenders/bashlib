@@ -17,7 +17,7 @@ $ format_seconds 86399
 
 > `usage: compare_versions <version1> <version2>`
 
-*Examples:*
+*Example:*
 
 ```sh
 $ compare_versions "1.0" "1.0"
@@ -53,6 +53,8 @@ my_great_script.sh: Could not find "aws" in $PATH. Please verify that "aws" is i
 
 > `usage: prompt <message>`
 
+*Example:*
+
 ```sh
 $ prompt "Is this a good prompt message?"
 Is this a good prompt message? [y/n] n
@@ -67,7 +69,9 @@ $ echo $?
 
 ## `top_level_parent_pid()`
 
-> `usage: top_level_parent_pid <pid>`
+> `usage: top_level_parent_pid [pid]`
+
+*Example:*
 
 ```sh
 $ echo $PPID

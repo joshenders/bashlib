@@ -99,7 +99,7 @@ function prompt() {
 }
 
 function top_level_parent_pid() {
-    # usage: $0 <pid>
+    # usage: $0 [pid]
 
     # Look up the top-level parent Process ID (PID) of the given PID, or the
     # current process if unspecified.
