@@ -103,6 +103,8 @@ my_very_important_command || exit_with_error "[CRITICAL]\tAn error has occured."
 
 > `usage: exit_with_usage()`
 
+*Example:*
+
 ```sh
 Usage: my_great_script.sh [options] <arg>
 
